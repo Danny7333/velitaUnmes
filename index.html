@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <title>Para mi Princesa Velita</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imgbx"></div>
+        <div class="corner-image top-left"></div>
+        <div class="corner-image top-right"></div>
+        <div class="corner-image bottom-left"></div>
+        <div class="corner-image bottom-right"></div>
+        <div class="countdownbx">
+            <h2>¡Hola Princesa Velita!<br>
+                <span id="startDate" style="display: none;">2025-04-09T09:25:00-05:00</span><span>llevamos juntos</span></h2>
+                
+                <div class="countdown">
+                <div id="months">na</div>
+                <div id="days">na</div>
+                <div id="hours">na</div>
+                <div id="minutes">na</div>
+                <div id="seconds">na</div>
+            </div>
+            <button class="click-button" onclick="togglePopup()">Mensaje especial</button>
+            <div class="popup" id="popup">
+                <h3>¡Feliz primer mes mi amor!</h3>
+                <p>Desde el 9 de abril, cada día a tu lado ha sido increíble. Eres mi Princesa Velita, la luz de mis días.</p>
+                <img src="img/popupimage.png" alt="Nuestra foto">
+                <button onclick="togglePopup()">Cerrar</button>
+            </div>
+            <p class="mark">Para Mabel, con todo mi amor - 11 mayo 2025</p>
+        </div>
+    </div>  
+    <script src="javascript.js"></script>
+</body>
+</html>
